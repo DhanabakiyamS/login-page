@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('natural2.jpg')no-repeat center center fixed;
+    background-size: cover;
+    
+    
+}
+.row1 h1{
+    color: rgb(27, 247, 7);
+    padding-left: 30px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+li a{
+display: block;
+padding-left: 80px;
+color: yellow;
+font-weight: bold;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    
+    background-color: rgba(6, 7, 19, 0.675);
+    
+}
+
+
+li a:hover{
+    color: rgb(14, 218, 11);
+}
+.navbar{
+    padding-left: 40px;
+}
+
+.searchbox{
+padding: 30px;
+}
+input{
+border-radius: 25px;
+width: 400px;
+height: 20px;
+background-color: rgb(229, 238, 231) ;
+color: black;
+font-weight: bold;
+}
+input::placeholder{
+color: black;
+padding: 10px;
+}
+.searchbtn{
+border-radius: 25px;
+background-color: rgb(85, 224, 180);
+}
+
+
+
+.container1 h2{
+color: white;
+font-weight: bold;
+font-size: 40px;
+margin-left: 40px;
+}
+.container1 h1{
+color: greenyellow;
+font-weight: bold;
+font-size: 45px;
+margin-left: 40px;
+
+}
+.joinus{
+border-radius: 15px;
+background-color: greenyellow;
+color: black;
+font-weight: bold;
+font-size: large;
+font-family: Arial;
+width: 100px;
+margin-left: 40px;
+
+}
+.container1 .joinus:hover{
+    background-color: rgb(214, 64, 10);
+    color: greenyellow;
+}
+
+
+.container1 h4{
+color: white;
+font-weight: bold;
+width: 600px;
+margin-left: 40px;
+
+}
+
+
+        .login {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #02140684;
+            color: rgb(255, 255, 255);
+           
+        }
+
+        .login h2 {
+            text-align: center;
+        }
+
+        .login input[type="text"],
+        .login input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: hsl(128, 79%, 44%);
+        }
+
+        
+
+.login input[type="checkbox"]
+{
+    width: 10%;
+    padding: 20px;
+    
+}   
+
+        .login .signup-link {
+            text-align: center;
+        }
+
+        .login .signup-link a {
+            color: #ff4000;
+            text-decoration: none;
+        }
+
+        .login .signup-link a:hover {
+            text-decoration: underline;
+        }
+
+.page{
+display: flex;
+background-color: rgba(6, 7, 19, 0.44);
+padding-top: 120px;
+}
+
+button[type="submit"] {
+
+    background: linear-gradient(90deg, #d6ac2d, #a61c9f); 
+    color: black; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+  
+    cursor: pointer; /* Change the cursor to a pointer when hovering */
+    border: 1px solid #ccc;
+
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* Change the color when the button is hovered over */
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #d63e2d, #9ba61c); 
+    color: white;
+}
+
